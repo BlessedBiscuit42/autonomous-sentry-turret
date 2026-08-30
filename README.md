@@ -69,11 +69,10 @@ Flash `firmware/turret_control/turret_control.ino` to the Arduino Mega using the
 # ==========================================
 # Terminal 1: USB Camera Video Stream (Raspberry Pi SSH)
 # ==========================================
-cd ~/autonomous-sentry-turret
-source venv/bin/activate
+cd ~/mjpg-streamer/mjpg-streamer-experimental
 
 # Stream USB UVC camera feed over network port 8554
-mjpg_streamer -i "input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o "output_http.so -p 8554 -w ./www"
+./mjpg_streamer -i "./input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o "./output_http.so -p 8554 -w ./www"
 ```
 
 ```bash
