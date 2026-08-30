@@ -32,7 +32,7 @@ An end-to-end embedded hardware and computer vision system featuring real-time Y
 | **Arduino Mega 2560** | 1 | Real-time PWM servo timing & GPIO payload control |
 | **InnoMaker 1080P UVC Camera** | 1 | 130° wide-angle USB vision sensor |
 | **TP-Link Powered USB OTG Hub** | 1 | Self-powered hub to prevent Pi brownouts under peripheral load |
-| **Pan/Tilt Servo Motors** | 2 | High-torque PWM actuation for horizontal/vertical tracking |
+| **MG90D Servo Motors** | 2 | High-torque PWM actuation for horizontal/vertical tracking |
 | **2N2222 NPN Transistor** | 1 | Low-side GPIO switch for laser firing circuit |
 | **Red Laser Diode (5V)** | 1 | Targeted firing payload |
 | **Passive Components** | Misc | 1kΩ base resistor (current limiting), 100µF decoupling capacitor |
