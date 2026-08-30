@@ -35,7 +35,7 @@ An end-to-end embedded hardware and computer vision system featuring real-time Y
 | **MG90D Servo Motors** | 2 | High-torque PWM actuation for horizontal/vertical tracking |
 | **2N2222 NPN Transistor** | 1 | Low-side GPIO switch for laser firing circuit |
 | **Red Laser Diode (5V)** | 1 | Targeted firing payload |
-| **Passive Components** | Misc | 1kΩ base resistor (current limiting), 100µF decoupling capacitor |
+| **Passive Components** | Misc | 1kΩ resistors, 2kΩ resistors, 100µF decoupling capacitor |
 
 > **Hardware & Power Note:** The Pi Zero 2 W is powered via a TP-Link self-powered USB OTG hub to handle power delivery for external peripherals without risking voltage brownouts. Network communication between the host laptop and the Pi utilizes a direct Ethernet connection to eliminate wireless jitter and maintain minimal MJPEG stream latency.
 
